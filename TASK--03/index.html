@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Echo Chat</title>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="chat-top">
+      <input type="text" id="message-input" name="text" class="message" placeholder="Здесь вводится текст сообщения...">	
+      <button type="button" class="btn" onclick="sendMessage()">Отправить</button>
+      <button type="button" class="btn" onclick="sendLocation()">Геолокация</button>
+    </div>
+    <div class="window-message" id="chat-text-window"></div>
+</div>
+    <script src="javascript.js"></script>
+    
+</body>
+</html>
